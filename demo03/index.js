@@ -1,7 +1,7 @@
 var arr = [
-    <h1>Hello world!</h1>,
-    <h1>Hi world!</h1>,
-    <h2>React is awesome</h2>,
+    <h3>Hello world!</h3>,
+    <h3>Hi world!</h3>,
+    <h3>React is awesome</h3>,
 ];
 ReactDOM.render(
     <div>

@@ -1,14 +1,12 @@
 var HelloMessage = React.createClass({
-    render: function() {
-        return <div><h1>hello</h1><h2>hi</h2></div>
+    render: function () {
+        return  <div>
+                    <h2>Hello,{this.props.name}</h2>
+                </div>
     }
 });
-
+//组件类的第一个字母必须大写,否则会报错,组件类只能包含一个顶层标签,否则也会报错.
 ReactDOM.render(
-    <HelloMessage name="John" />,
+    <HelloMessage name="AmberYLopez"/>,
     document.getElementById('example')
-);
-ReactDOM.render(
-    <HelloMessage name="John" />,
-    document.getElementById('example1')
 );
